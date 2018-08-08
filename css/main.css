@@ -2,3 +2,27 @@ img {
     width: 100%;
     vertical-align: middle;
 }
+
+.card {
+    box-shadow: gray 1px 1px 10px;
+}
+
+#encabezado {
+    background-image: url("https://www.expoknews.com/wp-content/uploads/2017/05/10-acciones-para-la-seguridad-en-la-UNAM-1200x500.jpg")
+}
+
+@media screen and (max-width: 600px) {
+    #twitter_section{
+        display:none;
+    }
+    
+}
+
+.social_icon {
+    width: 35px;
+    margin: 2px 5px;
+}
+
+body {
+    background-color: #f4f4f4;
+}

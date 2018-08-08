@@ -21,7 +21,7 @@
   <body>
 
 		<!-- Header -->
-		<div class="jumbotron jumbotron-fluid">
+		<div class="jumbotron jumbotron-fluid" id="encabezado">
 			<div class="container">
 				<div class="row">
 					<div class="col">
@@ -89,11 +89,9 @@
 
 		<!-- Contenido -->
 
-		<div class="container py-1">
+		<div class="container my-2">
 				<div class="row">
-					<div class="col-1">
-					</div>
-					<div class="col-10">
+					<div class="col-12">
 						<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
@@ -128,126 +126,147 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-1">
-					</div>
 				</div>
-				<div class="row py-1">
-					<div class="col-1">
-					</div>
-					<div class="col-3 pr-1">
-							<div class="card" style="width: 18rem;">
-								<img class="card-img-top" src=".../100px180/" alt="Card image cap">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									<a href="#" class="btn btn-primary">Go somewhere</a>
-								</div>
+				<div class="row my-1">
+					<div class="col-4">
+						<div class="card my-2">
+							<a href="">
+								<img class="card-img-top" src="images/card.jpg" 
+								alt="Card image cap" />
+							</a>
+							<div class="card-body">
+								<h5 class="card-title">Título</h5>
+								<p class="card-text">Contenido</p>
 							</div>
-					</div>
-					<div class="col-3 pr-2">
-							<div class="card" style="width: 18rem;">
-									<img class="card-img-top" src=".../100px180/" alt="Card image cap">
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-										<a href="#" class="btn btn-primary">Go somewhere</a>
-									</div>
+						</div>
+						<div class="card my-2">
+							<a href="">
+								<img class="card-img-top" src="images/card.jpg" 
+								alt="Card image cap" />
+							</a>
+							<div class="card-body">
+								<h5 class="card-title">Título</h5>
+								<p class="card-text">Contenido</p>
 							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="card my-2">
+							<a href="">
+								<img class="card-img-top" src="images/card.jpg" 
+								alt="Card image cap" />
+							</a>
+							<div class="card-body">
+								<h5 class="card-title">Título</h5>
+								<p class="card-text">Contenido</p>
+							</div>
+						</div>
+						<div class="card my-2">
+							<a href="">
+								<img class="card-img-top" src="images/card.jpg" 
+								alt="Card image cap" />
+							</a>
+							<div class="card-body">
+								<h5 class="card-title">Título</h5>
+								<p class="card-text">Contenido</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4" id="twitter_section">
+						<div class="row my-2">
+							<a href="#">
+								<img class="social_icon" src="images/facebook_icon.svg" alt="facebook_icon" />
+							</a>
+							<a href="#">
+								<img class="social_icon" src="images/twitter_icon.svg" alt="twitter_icon" />
+							</a>
+							<a href="#">
+								<img class="social_icon" src="images/youtube_icon.svg" alt="youtube_icon" />
+							</a>
+							<a href="#">
+								<img class="social_icon" src="images/instagram_icon.svg" alt="instagram_icon" />
+							</a>
+						</div>
+						<div class="row">
+							<a class="twitter-timeline" 
+							href="hhttps://twitter.com/UNAM_MX?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+							data-height="600" data-chrome="nofooter noborders noscrollbar">
+								Universidad Nacional Autónoma de México
+							</a>
+							<script async src="https://platform.twitter.com/widgets.js"	charset="utf-8">
+							</script>
+						</div>
 					</div>
 				</div>
 			</div>
 
 		<!-- Footer -->
-		<footer class="page-footer font-small bg-dark pt-4" style="color: white">
-    	<div class="container text-center text-md-left">
+		<footer class="page-footer bg-dark pt-4" style="color: white">
+    		<div class="container text-center text-md-left">
 
-      	<div class="row">
+				<div class="row">
 
-        	<div class="col-md-4 mx-auto">
-          	<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-          	<p>Here you can use rows and columns here to organize your footer content. 
-							Lorem ipsum dolor sit amet, consectetur
-            	adipisicing elit.</p>
+					<div class="col-md-4 mx-auto">
+						<h5 class="text-uppercase mt-3 mb-4">Pie de página</h5>
+						<p>
+							Contenido pie de página
+						</p>
 					</div>
 
-					<hr class="clearfix w-100 d-md-none">
+				<hr class="clearfix w-100 d-md-none">
 
-        	<div class="col-md-2 mx-auto">
-						<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+					<div class="col-md-2 mx-auto">
+						<h5 class="text-uppercase mt-3 mb-4">Links</h5>
+							<ul class="list-unstyled">
+								<li>
+									<a href="#!">Link 1</a>
+								</li>
+								<li>
+									<a href="#!">Link 2</a>
+								</li>
+								<li>
+									<a href="#!">Link 3</a>
+								</li>
+								<li>
+									<a href="#!">Link 4</a>
+								</li>
+							</ul>
+						</div>
+
+				<div class="col-md-2 mx-auto">
+					<h5 class="text-uppercase mt-3 mb-4">Links</h5>
 						<ul class="list-unstyled">
-							<li>
-								<a href="#!">Link 1</a>
-							</li>
-							<li>
-								<a href="#!">Link 2</a>
-							</li>
-							<li>
-								<a href="#!">Link 3</a>
-							</li>
-							<li>
-								<a href="#!">Link 4</a>
-							</li>
-						</ul>
-					</div>
-
-        	<hr class="clearfix w-100 d-md-none">
-
-        	<div class="col-md-2 mx-auto">
-
-          	<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-						<ul class="list-unstyled">
-							<li>
-								<a href="#!">Link 1</a>
-							</li>
-							<li>
-								<a href="#!">Link 2</a>
-							</li>
-							<li>
-								<a href="#!">Link 3</a>
-							</li>
-							<li>
-								<a href="#!">Link 4</a>
-							</li>
-						</ul>
-					</div>
-
-        	<hr class="clearfix w-100 d-md-none">
-
-        	<div class="col-md-2 mx-auto">
-						<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-						<ul class="list-unstyled">
-							<li>
-								<a href="#!">Link 1</a>
-							</li>
-							<li>
-								<a href="#!">Link 2</a>
-							</li>
-							<li>
-								<a href="#!">Link 3</a>
-							</li>
-							<li>
-								<a href="#!">Link 4</a>
-							</li>
-						</ul>
-					</div>
-
+						<li>
+							<a href="#!">Link 1</a>
+						</li>
+						<li>
+							<a href="#!">Link 2</a>
+						</li>
+						<li>
+							<a href="#!">Link 3</a>
+						</li>
+						<li>
+							<a href="#!">Link 4</a>
+						</li>
+					</ul>
 				</div>
 
+				<hr class="clearfix w-100 d-md-none">
+
 			</div>
+		</div>
 			
-			<hr>
+		<hr>
 
-			<div class="footer-copyright text-center py-4">© 2018 Copyright:
-				<a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
-			</div>
+		<div class="footer-copyright text-center py-4">© 2018 Copyright:
+			<a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+		</div>
 
-		</footer>
+	</footer>
 
-		<script src="js/jquery-3.3.1.min.js"></script>
-		<script src="js/popper.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 		
   </body>
 </html>
